@@ -1,9 +1,9 @@
 module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
   blogAuthorDir: "sample-authors", // The name of directory that contains your 'authors' folder.
-  blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
-  siteTitle: "Gatsby v2 Casper Starter", // Site title.
-  siteTitleAlt: "GatsbyJS Casper Theme Starter", // Alternative site title for SEO.
+  blogAuthorId: "Detektywowo", // The default and fallback author ID used for blog posts without a defined author.
+  siteTitle: "Detektywowo.pl", // Site title.
+  siteTitleAlt: "Blog detektywistyczny", // Alternative site title for SEO.
   siteLogo:
     "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://haysclark.github.io", // Domain of your website without pathPrefix.
@@ -33,7 +33,7 @@ module.exports = {
       iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
     },
     {
-      label: "Twitter",
+      label: "Facebook",
       url: "https://twitter.com/gatsbyjs",
       iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
     },
@@ -45,8 +45,8 @@ module.exports = {
   ],
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
-    label: "Gatsby Casper Starter" // Label used before the year
-    // year: "2018" // optional, set specific copyright year or range of years, defaults to current year
+    label: "Detektywowo.pl", // Label used before the year
+    year: "2019" // optional, set specific copyright year or range of years, defaults to current year
     // url: "https://www.gatsbyjs.org/" // optional, set link address of copyright, defaults to site root
   },
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
