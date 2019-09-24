@@ -1,7 +1,7 @@
 module.exports = {
   blogPostDir: "sample-posts", // The name of directory that contains your posts.
   blogAuthorDir: "sample-authors", // The name of directory that contains your 'authors' folder.
-  blogAuthorId: "Detektywowo", // The default and fallback author ID used for blog posts without a defined author.
+  blogAuthorId: "casper", // The default and fallback author ID used for blog posts without a defined author.
   siteTitle: "Detektywowo.pl", // Site title.
   siteTitleAlt: "Blog detektywistyczny", // Alternative site title for SEO.
   siteLogo:
@@ -33,7 +33,7 @@ module.exports = {
       iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
     },
     {
-      label: "Facebook",
+      label: "Twitter",
       url: "https://twitter.com/gatsbyjs",
       iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
     },
@@ -45,11 +45,11 @@ module.exports = {
   ],
   // Copyright string for the footer of the website and RSS feed.
   copyright: {
-    label: "Detektywowo.pl", // Label used before the year
-    year: "2019" // optional, set specific copyright year or range of years, defaults to current year
+    label: "Detektywowo.pl" // Label used before the year
+    //year: "2019" // optional, set specific copyright year or range of years, defaults to current year
     // url: "https://www.gatsbyjs.org/" // optional, set link address of copyright, defaults to site root
   },
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0", // Used for setting manifest background color.
-  promoteGatsby: false // Enables the GatsbyJS promotion information in footer.
+  promoteGatsby: true // Enables the GatsbyJS promotion information in footer.
 };
