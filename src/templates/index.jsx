@@ -19,6 +19,8 @@ import PaginatedContent from "../components/PaginatedContent/PaginatedContent";
 import SocialMediaIcons from "../components/SocialMediaIcons/SocialMediaIcons";
 import Layout from "../components/layout";
 
+import mylogo from "../images/detektywowo-logo.png"
+
 class IndexTemplate extends React.Component {
   state = {
     menuOpen: false
@@ -81,6 +83,7 @@ class IndexTemplate extends React.Component {
                 </MainNav>
                 <div className="vertical">
                   <div className="main-header-content inner">
+                    <img src={mylogo} alt="Detektywowo.pl - Blog detektywistyczny" />
                     <PageTitle text={config.siteTitle} />
                     <PageDescription text={config.siteDescription} />
                     <SocialMediaIcons
