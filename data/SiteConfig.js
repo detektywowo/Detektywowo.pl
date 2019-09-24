@@ -39,7 +39,7 @@ module.exports = {
     },
     {
       label: "Email",
-      url: "mailto:gatsbyjs@example.com",
+      url: "mailto:detektywowo.pl@gmail.com",
       iconClassName: "fa fa-envelope" // Disabled, see Navigation.jsx
     }
   ],
